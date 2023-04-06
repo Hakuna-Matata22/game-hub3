@@ -5,6 +5,7 @@ import axios from '../Services/api-client'
 export interface Games {
    id: number;
    name: string;
+   background_image: string;
  }
  
 export interface FetchGamesResponse {
