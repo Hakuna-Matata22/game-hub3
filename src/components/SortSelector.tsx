@@ -9,7 +9,7 @@ interface Props {
 const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
   const sortOrders = [
     { value: "", label: "Relevance" },
-    { value: "-added", label: "Data added" },
+    { value: "-added", label: "Date added" },
     { value: "name", label: "Name" },
     { value: "-released", label: "Released date" },
     { value: "-metacritic", label: "Popularity" },
